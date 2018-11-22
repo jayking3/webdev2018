@@ -1,0 +1,3 @@
+function spanOnHover(sHover) {
+   document.
+}

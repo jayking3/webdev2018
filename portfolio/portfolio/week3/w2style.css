@@ -1,0 +1,160 @@
+html {
+   font-family: monospace;
+   height: 100%;
+   padding-left: 0px;
+}
+
+body {
+   text-align: center;
+   height: 100%;
+   width: 100%;
+   color: white;
+   margin-left: 0px;
+   margin-right: 0px;
+   margin-top: -20px;
+}
+
+.parralax {
+   background-image: url(../winter.jpg);
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 100%;
+   top:100px;
+   position: sticky;
+   z-index: -1;
+   filter: blur(3px);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+   background-color: rgba(255,255,255, 0.25);
+   background-image: url(../winter.jpg);
+   background-blend-mode: color;
+}
+
+.navbar {
+  list-style: none;
+  display: block;
+  position:static;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url(../winter.jpg);
+  background-blend-mode: color;
+  background-position: center;
+  filter: blur(100%);
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 50;
+}
+
+.navbarmain ul {
+  list-style: none;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+}
+
+.navbarmain a {
+  display: inline;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.mainbg {
+  height: 100%;
+  width: 100%;
+  background-image: url(../bgimage.jpg);
+  background-blend-mode: color;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip:border-box;
+  z-index: 1;
+  margin: 0px;
+  margin-top: -12px;
+}
+
+p#wtitle {
+  top:5%;
+  position: relative;
+  background-color: rgba(0,0,0,0.5);
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 40%;
+  margin-right: 40%;
+  z-index: 1;
+  font-size: 20px;
+}
+
+#footer {
+  position: relative;
+  top: 100%;
+  background-color: rgba(0,0,0,1);
+}
+
+#box1 span,#box2 span, #box3 span {
+  background-color: white;
+  text-align: center;
+  right: 50%;
+  color: black;
+}
+
+.information {
+   height: 85px;
+   max-height: 150px;
+   width: 100%;
+   color: black;
+   display: inline-block;
+   background-color: rgba(0, 0, 0, 0.05);
+   overflow-y: hidden;
+}
+
+.information #box1 {
+  width: 30%;
+  float:left;
+  display: inline-block;
+  text-align: left;
+  height: 85px;
+  max-height: 150px;
+  max-width: 500px;
+}
+
+.information #box2 {
+  width: 30%;
+  direction: rtl;
+  float: right;
+  display: inline-block;
+  text-align: right;
+  height: 85px;
+  max-height: 150px;
+  max-width: 500px;
+}
+
+.information #box3 {
+  width: 40%;
+  display: inline-block;
+  text-align: middle;
+  height: 85px;
+  max-height: 150px;
+  max-width: 887px;
+}
+
+.bg-2 {
+   display:inline-block;
+   height: 100%;
+   width: 100%;
+   background-image: url(../bg2-img.jpg);
+   background-size: cover;
+   z-index: 1;
+   margin-top: 50px;
+}
+
+/*p .box1 .box2 {
+
+}*/

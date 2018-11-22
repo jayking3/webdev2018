@@ -1,0 +1,99 @@
+html {
+   font-family: monospace;
+   height: 100%;
+}
+
+body {
+   text-align: center;
+   height: 100%;
+   color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+   background-color: rgba(255,255,255,0.25);
+}
+
+.mainbg {
+   margin-top: -4px;
+  height: 100%;
+  background-image: url(../bgimage.jpg);
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: color;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+p#wtitle {
+  top:5%;
+  position: relative;
+  font-weight: bold;
+  background-color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+#footer {
+  position: relative;
+  top: 95.5%;
+  background-color: rgba(0,0,0,1);
+}
+
+#box1 span,#box2 span, #box3 span {
+  background-color: white;
+  text-align: center;
+  right: 50%;
+  color: black;
+}
+
+.information {
+   height: 85px;
+   max-height: 150px;
+   width: 100%;
+   color: white;
+   display: inline-block;
+   background-color: rgba(0, 0, 0, 0.05);
+   overflow-y: hidden;
+}
+
+.information #box1 {
+  width: 30%;
+  float:left;
+  display: inline-block;
+  text-align: left;
+  height: 85px;
+  max-height: 150px;
+  max-width: 500px;
+}
+
+.information #box2 {
+  width: 30%;
+  direction: rtl;
+  float: right;
+  display: inline-block;
+  text-align: right;
+  height: 85px;
+  max-height: 150px;
+  max-width: 500px;
+}
+
+.information #box3 {
+  width: 40%;
+  display: inline-block;
+  text-align: middle;
+  height: 85px;
+  max-height: 150px;
+  max-width: 887px;
+}
+
+/*p .box1 .box2 {
+
+}*/
